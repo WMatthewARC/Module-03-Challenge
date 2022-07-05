@@ -3,16 +3,12 @@
 import os
 import csv
 
-filename = os.path.join(os.path.dirname(__file__), "./Resources/election_data.csv")
+GrabData = os.path.join(os.path.dirname(__file__), "./Resources/election_data.csv")
+#GrabData = os.path.join("Resources","election_data.csv")
+#GrabData = "C:/Users/MattM/Desktop/GaTech Boot Camp/assignments/Lesson 3/Python-challenge/PyPoll/Resources/election_data.csv"
 
 #data_path=os.path.join('Resources', 'election_data.csv')
-#candidates_set = set()
-
-
-outputfile_PyPoll= "C:/Users/MattM/Documents/GitHub/Module-03-Challenge/PyPoll/analysis"
-
-
-
+Outputfile_PyPoll = "C:/Users/MattM/Documents/GitHub/Module-03-Challenge/PyPoll/analysis/OutputFile_PyPoll.txt"
 
 candidates = {}
 sum = 0
@@ -22,7 +18,7 @@ winner = ""
 def formatPercent(amount):
     return "{:.3f}%".format(amount)
 
-with open(filename, "r") as file:
+with open(GrabData, "r") as file:
 
     reader = csv.DictReader(file)
     for row in reader:
@@ -35,10 +31,13 @@ with open(filename, "r") as file:
 
     # write header and sum
 output = [
-    f"Analysis",
-    "----------------",
-    f"Total Votes: {sum}"
+    "Election Results\n"
+    "-------------------------\n"
+    f"Total Votes: {sum}\n"
+    "-------------------------\n"
 ]
+
+
 for candidate in candidates:
     votes = candidates[candidate]
     maxVotes = max(maxVotes, votes)
@@ -46,16 +45,18 @@ for candidate in candidates:
         winner = candidate
     percent = (votes/sum)*100
     
-    output.append(f"{candidate}: {formatPercent(percent)} ({votes})")
+    output.append(
+        f"{candidate}: {formatPercent(percent)} ({votes})\n"
+    
+        )
 
-    # write candidate, percent, total
-    #print(f"{candidate}: {formatPercent(percent)} ({votes})")
-#print(f"Winner {winner}")
+output.append("-------------------------\n")
+output.append(f"Winner: {winner}\n")
+output.append("-------------------------\n")
 
 
 print(output)
 
-
-with open(outputfile_PyPoll, "w") as textfile:
-    textfile.write(output)
-
+#Exporting output to a text file.
+with open(Outputfile_PyPoll, "w") as textfile:
+    textfile.write("".join(output))
