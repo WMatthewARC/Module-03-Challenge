@@ -2,7 +2,7 @@
 <i> "Here we go ..!"</i> :mushroom:
   
   
-  #PyBank | Financial Analysis
+ <b>PyBank | Financial Analysis</B>
     Pyton code will do the following:
 
       The total number of months included in the dataset
@@ -15,7 +15,7 @@
   
   
   
-   #PyPoll | Election Results
+   <b>PyPoll | Election Results</B>
     Pyton code will do the following:
   
       The total number of votes cast
@@ -24,4 +24,4 @@
       The total number of votes each candidate won
       The winner of the election based on popular vote
   
-      This is all then outputted to the text file in the folder Rescoucres file Outputfile_PyPoll.txt
+    This is all then outputted to the text file in the folder Rescoucres file Outputfile_PyPoll.txt
