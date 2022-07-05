@@ -14,6 +14,7 @@
     This is all then outputted to the text file in the folder Rescoucres file Outputfile_PyBank.txt
   
   
+  
    #PyPoll | Election Results
     Pyton code will do the following:
   
@@ -22,5 +23,5 @@
       The percentage of votes each candidate won
       The total number of votes each candidate won
       The winner of the election based on popular vote
- 
-  This is all then outputted to the text file in the folder Rescoucres file Outputfile_PyPoll.txt
+  
+      This is all then outputted to the text file in the folder Rescoucres file Outputfile_PyPoll.txt
