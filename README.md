@@ -2,7 +2,7 @@
 <i> "Here we go ..!"</i> :mushroom:
   
   
- <b>PyBank | Financial Analysis</B>
+ <b>PyBank | Financial Analysis</b>
     Pyton code will do the following:
 
       The total number of months included in the dataset
@@ -15,7 +15,7 @@
   
   
   
-   <b>PyPoll | Election Results</B>
+   <b>PyPoll | Election Results</b>
     Pyton code will do the following:
   
       The total number of votes cast
