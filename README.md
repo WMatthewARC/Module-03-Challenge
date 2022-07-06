@@ -4,7 +4,7 @@
   
  <b>PyBank | Financial Analysis</b>
     Pyton code will do the following:
-
+    After importing data from .csv
       Total number of months included in the dataset
       Net total amount of "Profit/Losses" over the entire period
       Changes in "Profit/Losses" over the entire period, and then the average of those changes
@@ -18,6 +18,7 @@
    <b>PyPoll | Election Results</b>
     Pyton code will do the following:
   
+     After importing data from .csv
       The total number of votes cast
       A complete list of candidates who received votes
       The percentage of votes each candidate won
