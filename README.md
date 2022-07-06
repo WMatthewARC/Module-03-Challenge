@@ -11,7 +11,6 @@
         Changes in "Profit/Losses" over the entire period, and then the average of those changes
         The greatest increase in profits (date and amount) over the entire period
         The greatest decrease in profits (date and amount) over the entire period
-
     This is all then outputted to the text file in the folder Rescoucres file Outputfile_PyBank.txt
   
   
@@ -26,5 +25,4 @@
        The percentage of votes each candidate won
        The total number of votes each candidate won
        The winner of the election based on popular vote
-
     This is all then outputted to the text file in the folder Rescoucres file Outputfile_PyPoll.txt
