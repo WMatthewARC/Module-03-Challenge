@@ -2,7 +2,8 @@
 <i> "Here we go ..!"</i> :mushroom:
   
   <b>PyBank | Financial Analysis</b>
-  Pyton code will do the following:
+  
+  Python code will do the following:
      
       After importing data from .csv 
         Total number of months included in the dataset
@@ -16,7 +17,8 @@
   
   
    <b>PyPoll | Election Results</b>
-    Pyton code will do the following:
+    
+    Python code will do the following:
   
      After importing data from .csv
        The total number of votes cast
