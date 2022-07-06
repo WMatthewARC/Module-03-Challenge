@@ -5,7 +5,7 @@
   
   Python code will do the following:
      
-      After importing data from .csv 
+    After importing data from .csv 
         Total number of months included in the dataset
         Net total amount of "Profit/Losses" over the entire period
         Changes in "Profit/Losses" over the entire period, and then the average of those changes
