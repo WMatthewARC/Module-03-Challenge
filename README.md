@@ -19,7 +19,7 @@
     
   Python code will do the following:
   
-     After importing data from .csv
+    After importing data from .csv
        The total number of votes cast
        A complete list of candidates who received votes
        The percentage of votes each candidate won
