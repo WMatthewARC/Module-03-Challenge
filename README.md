@@ -18,7 +18,7 @@
   
    <b>PyPoll | Election Results</b>
     
-    Python code will do the following:
+  Python code will do the following:
   
      After importing data from .csv
        The total number of votes cast
